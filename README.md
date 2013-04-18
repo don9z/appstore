@@ -4,12 +4,12 @@ Tools for AppStore
 ## Rank ##
 Print app rank information by multiple app ids (Rank below 300 will not be shown)
 
-`
+```
 import rank
 rank.get_ranks(['506627515', '580765736'], 'United States', 'Top Grossing', 'Games')
-`
+```
 
-`
+```
 Working ... Be patient, Master chris!
 Rank List:    iTunes Store: Top Grossing
 From:         https://itunes.apple.com/us/rss/topgrossingapplications/limit=300/genre=6014/xml
@@ -27,17 +27,17 @@ Rank:         4
 App Title:    Hay Day - Supercell
 App Link:     https://itunes.apple.com/us/app/hay-day/id506627515?mt=8&uo=2
 Updated At:   2013-04-18 15:08:49
-`
+```
 
 ## Reviews ##
 Print app reviews by app id (At most 50 reviews will be printed)
 
-`
+```
 import review
 review.get_app_reviews('506627515', 'United States')
-`
+```
 
-`
+```
 Title:    iTunes Store: Customer Reviews
 Updated:  2013-04-18 15:35:08
 App Name: Hay Day - Supercell
@@ -74,4 +74,4 @@ Rating:   5
 Updated   2013-04-18 10:29:00
 
 ...
-`
+```
